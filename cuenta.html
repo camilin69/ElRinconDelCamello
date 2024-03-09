@@ -13,25 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Ojuju:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/principal.css">
-    
+    <link rel="stylesheet" href="estilos/cuenta.css">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <script src="./funciones/principal.js"></script>
+    <script src="./funciones/cuenta.js"></script>
     <header>
         <div class="pagPrincipal">
             <img class="iconoPrincipal" media="(min-width:200px)" srcset="./iconos/camello.png" />
             <p class="logo">El Rincón del camello</p>
             <nav class="opciones">
+                
                 <a href="cuenta.html">
                     <button onclick='botonColor("cuentaBoton")' id="cuentaBoton">
                         <img height="75px" width="75px" srcset="./iconos/cuenta.png" />
                         Cuenta
                     </button>
                 </a>
-                
                 <button onclick='botonColor("buscarBoton")' id="buscarBoton">
                     <img height="75px" width="75px" srcset="./iconos/buscar.png" />
                     Buscar
@@ -49,25 +50,43 @@
     </header>
 
     <main>
-        <div>
-            <img height="400px" width="600px" srcset="./imagenes/poster.png" />
-        </div>
         <section class="cuentaSeccion">
-            
-
-        </section>
-        <section class="buscarSeccion">
-            
-        </section>
-        <section class="mensajesSeccion">
-
-        </section>
-        <section class="guardadosSeccion">
-            
+            <form>
+                <div class="campos">
+                    <h1>¡Crea gratis tu cuenta!</h1>
+                    <h2 class="h21">y empieza a</h2><h2 class="h22">conseguir</h2><h2 class="h23">empleo</h2>  
+                    <div class="primerNombre">
+                        <span>¿Cuál es tu primer nombre?</span>
+                        <input type="field" name="primerNombre"/>
+                    </div>
+                    <div class="segundoNombre">
+                        <span>¿Cuál es tu segundo nombre?</span>
+                        <input type="field" name="segundoNombre"/>
+                    </div>
+                    <div class="identificacion">
+                        <span>¿Cuál es tu número de identificación?</span>
+                        <input type="field" name="identificacion"/>
+                    </div>
+                    <div class="correo">
+                        <span>Escribe tu correo electrónico:</span>
+                        <input type="field" name="correo"/>
+                    </div>
+                    <div class="contraseña">
+                        <span>Escribe una contraseña</span>
+                        <input type="field" name="contraseña"/>
+                    </div>
+                    <a href="https://co.computrabajo.com/">
+                        <button onmouseenter='subrayado()' onmouseleave="noSubrayado()" id="crearCuenta">Crear Cuenta</button>
+                    </a>
+                    <p>ó</p>
+                    <a href="https://co.computrabajo.com/">
+                        <button id="ingresar">Ingresar</button>
+                    </a>
+                    
+                </div>
+            </form>
         </section>
     </main>
-
-    
 
     <section id="faq">
         <h2>FAQ (Preguntas Frecuentes)</h2>

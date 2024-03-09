@@ -1,0 +1,122 @@
+#cuentaBoton{
+    background-color: #494600;
+}
+.cuentaSeccion{
+    visibility: visible;
+    display: flex;
+    background-color: #494600;
+    width: 100%;
+    height: 1120px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.campos h1{
+    margin-left: 30px;
+    font-size: 52px;
+    color: aliceblue;
+}
+.h21{
+    margin-left: 95px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.h22{
+    margin-left: 265px;
+    margin-top: -65px;
+    font-size: 30px;
+    color: #fff700;
+}
+.h23{
+    margin-left: 405px;
+    margin-top: -65px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.campos{
+    border-radius: 50px;
+    background-color: #625d00;
+    margin-top: 50px;
+    margin-left:85%;
+    width: 600px;
+    height: 1030px;
+    border: 5px solid white;
+    float: left;
+    font-family: "Nunito", sans-serif;
+    color:white;
+}
+.primerNombre,
+.segundoNombre,
+.identificacion,
+.correo,
+.contraseña{
+    float: left;
+    width: 500px;
+    height: 80px;
+    margin-left: 50px;
+}
+.primerNombre{margin-top: 50px;}
+.segundoNombre{margin-top: 50px;}
+.identificacion{margin-top: 50px;}
+.correo{margin-top: 50px;}
+.contraseña{margin-top: 50px;}
+
+.primerNombre span,
+.segundoNombre span{
+    margin-left: 150px;
+}
+.primerNombre input,
+.segundoNombre input,
+.identificacion input,
+.correo input,
+.contraseña input{
+    width: 380px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.identificacion span{
+    margin-left: 120px;
+}
+
+.correo span{
+    margin-left: 140px;
+}
+
+.contraseña span{
+    margin-left: 160px;
+}
+
+#crearCuenta{
+    border-color: transparent;
+    background-color: transparent;
+    color: #fff700;
+    border-radius: 45px;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 800;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.campos p{
+    margin-left: 300px;
+}
+
+#ingresar{
+    border-color: transparent;
+    background-color: #787400;
+    color: #ffffff;
+    border-radius: 45px;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    margin-top: -5px;
+    font-weight: 800;
+    margin-left: 255px;
+    cursor: pointer;
+}
+
+
