@@ -28,7 +28,7 @@
 .h12{
     margin-top: -100px;
     font-size: 116px;
-    color: rgb(255, 130, 41);
+    color: #ffe100;
 }
 .h13{
     margin-top: -100px;
@@ -88,4 +88,9 @@
 .empresa6{
     padding: 50px;
     grid-row: 2;
+}
+
+#redessociales{
+    margin-top: -30%;
+    margin-left: 30%;
 }

@@ -1,7 +1,10 @@
 body{
     background-color: #494600;
-
 }
+main{
+    height: 1500px;
+}
+
 .pagPrincipal{
     display: flex;
     background-color: #625d00;
@@ -66,10 +69,142 @@ body{
     margin-top: -1000px;
 }
 
+.contenidoPrincipal{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 590px;
+    background-color: #9a9848;
+
+}
+
+.contenidoPrincipal h2{
+    width: 650px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.empresas{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.empresasBoton{
+    margin-left: 390px;
+    border-radius: 50px;
+    font-size: 28px;
+    width: 200px;
+    height: 60px;
+}
+.ayudas{
+    margin-top: 100px;
+    background-color: #9a9848;
+    border: 1px solid #000000;
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.ayudas h2{
+    text-decoration: underline;
+    margin-left: 260px;
+    font-size: 30px;
+}
+.ayudas li{
+    display: flex;
+    font-size: 14px;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.camellito{
+    margin-top: 60px;
+}
+
+.p1{
+    background-color: #9a9848;
+    margin-top: 110px;
+    margin-left: -1050px;
+}
+
+.p2{
+    background-color: #9a9848;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.videoPrincipal{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.faqDiv h2{
+    width: 90%;
+    margin-left: 480px;
+    color: #fff200;
+}
+#faq{
+    padding: 10px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 1000px;
+    background-color: #625d00;
+}
+
 #faq,
 footer,
 #redessociales{
-    background-color: #625d00;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 12px;
+    color:white;
 }
+
+#redessociales{
+    margin-left: 30%;
+}
+#redessociales h2{
+    margin-left: 250px;
+}
+#redessociales li{
+    display: inline-block;
+    margin-left: -30px;
+    padding-left: 100px;
+}
+#redessociales li button{
+    width:75px;
+    height: 75px;
+    border-radius: 20px;
+    background-color:transparent;
+    border-color: transparent;
+}
+#redessociales li button img{
+    background-color: #000000;
+    border:4px solid #000000;
+    border-radius: 20px;
+}
+footer{
+    display: flex;
+    margin-left: 38%;
+}
+footer a{
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+
 
 

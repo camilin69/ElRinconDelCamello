@@ -1,3 +1,103 @@
 #mensajesBoton{
     background-color: #494600;
 }
+
+.mensajesSeccion{
+    visibility: visible;
+    display: flex;
+    background-color: #494600;
+    height: 1120px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    margin-top: 0px;
+}
+
+.mensajes{
+    width: 40%;
+    height: 72%;
+    border:1px solid #ffffff;
+    
+}
+
+.chat{
+    
+    border:1px solid #ffffff;
+    width:60%;
+    height: 72%;
+    display: flex;
+}
+
+.ms1{
+    border:1px solid #ffffff;
+    width: 70%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    
+}
+.ms2,
+.ms3{
+    border:1px solid #ffffff;
+    width: 70%;
+    height: 10%;
+    margin-top: 20%;
+    margin-left: -70%;
+    color: white;
+
+}
+.ms3{
+    border:1px solid #ffffff;
+    width: 70%;
+    height: 10%;
+    margin-top: 35%;
+    margin-left: -70%;
+    color: white;
+
+}
+.m1,
+.m2,
+.m3{
+    cursor: pointer;
+    height: 100px;
+    border:1px solid #ffffff;
+} 
+.m1 h2,
+.m2 h2,
+.m3 h2{
+    color:white;
+    margin-left: 13%;
+    margin-top: -12%;
+} 
+.m1 h3,
+.m2 h3,
+.m3 h3{
+    color: #777777;
+    margin-left: 13%;
+} 
+.m1{
+    background-color: #908b00;
+}
+
+#campoTexto{
+    width: 80%;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 69%;
+    margin-left: -70%;
+    font-size: 35px;
+}
+.enviar{
+    width: 10%;
+    height: 100px;
+    background-color: #494600;
+    margin-top: 69%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+#redessociales{
+    margin-top: -30%;
+    margin-left: 30%;
+}
