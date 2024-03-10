@@ -16,19 +16,28 @@
 .mensajes{
     width: 40%;
     height: 72%;
-    border:1px solid #ffffff;
+    border:5px solid #ffffff;
     
 }
 
 .chat{
     
-    border:1px solid #ffffff;
+    border:5px solid #ffffff;
     width:60%;
     height: 72%;
     display: flex;
 }
 
+.ms1 p,
+.ms2 p,
+.ms3 p{
+    margin-top: 5px;
+    margin-left: 4%;
+    font-size: 24px;
+}
+
 .ms1{
+    border-radius: 50px;
     border:1px solid #ffffff;
     width: 70%;
     height: 10%;
@@ -39,6 +48,7 @@
 }
 .ms2,
 .ms3{
+    border-radius: 50px;
     border:1px solid #ffffff;
     width: 70%;
     height: 10%;
@@ -62,6 +72,7 @@
     cursor: pointer;
     height: 100px;
     border:1px solid #ffffff;
+    border-radius: 10px;
 } 
 .m1 h2,
 .m2 h2,
@@ -76,9 +87,6 @@
     color: #777777;
     margin-left: 13%;
 } 
-.m1{
-    background-color: #908b00;
-}
 
 #campoTexto{
     width: 80%;
@@ -91,6 +99,7 @@
 .enviar{
     width: 10%;
     height: 100px;
+    border-color: transparent;
     background-color: #494600;
     margin-top: 69%;
     margin-left: 3%;

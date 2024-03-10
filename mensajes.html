@@ -21,7 +21,7 @@
 
 <body>
     <script src="./funciones/principal.js"></script>
-    <script src="./funciones/cuenta.js"></script>
+    <script src="./funciones/mensajes.js"></script>
     <header>
         <div class="pagPrincipal">
             <img class="iconoPrincipal" width="100px" height="80px" srcset="./iconos/camello.png" />
@@ -66,19 +66,19 @@
     <main>
         <section class="mensajesSeccion">
             <div class="mensajes">
-                <div class="m1">
+                <div class="m1" onclick="chat('m1')">
                     <img height="75px" width="75px" srcset="./iconos/cuenta.png" />
                     <h2>Empresa 1</h2>
                     <h3>Hola Juan, te contactamos para...</h3>
                 </div>
 
-                <div class="m2">
+                <div class="m2" onclick="chat('m2')">
                     <img height="75px" width="75px" srcset="./iconos/cuenta.png" />
                     <h2>Empresa 2</h2>
                     <h3>Juan, nos alegra saber que...</h3>
                 </div>
 
-                <div class="m3">
+                <div class="m3" onclick="chat('m3')">
                     <img height="75px" width="75px" srcset="./iconos/cuenta.png" />
                     <h2>Empresa 3</h2>
                     <h3>Fuiste seleccionado para...</h3>

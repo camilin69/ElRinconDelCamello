@@ -32,6 +32,26 @@
     grid-template-rows: 2;
 }
 
+.contenedorpost1,
+.contenedorpost2,
+.contenedorpost3,
+.contenedorpost4{
+    width: 300px;
+    height: 240px;
+    border-radius: 20px;
+    grid-row: 1;
+}
+
+.contenedorpost5,
+.contenedorpost6,
+.contenedorpost7,
+.contenedorpost8{
+    width: 300px;
+    height: 240px;
+    border-radius: 20px;
+    grid-row: 2;
+}
+
 .post1,
 .post2,
 .post3,
@@ -40,25 +60,17 @@
 .post6,
 .post7,
 .post8{
-    padding-left: 30px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    color: #ffffff;
+    background-color: transparent;
     width: 300px;
     height: 240px;
     border:1px solid #ffffff;
     border-radius: 20px;
+    cursor: pointer;
     
-}
-.post1,
-.post2,
-.post3,
-.post4{
-    grid-row: 1;
-}
-.post5,
-.post6,
-.post7,
-.post8{
-    grid-row: 2;
-
 }
 .guardadosPic{
     margin-left: 70%;
