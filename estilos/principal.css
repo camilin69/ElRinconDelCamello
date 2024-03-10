@@ -59,9 +59,11 @@ main{
     height: 1000px;
 }
 
+
 .buscarSeccion,
 .mensajesSeccion,
-.guardadosSeccion{
+.guardadosSeccion,
+.cuentaRegistradaSeccion{
     visibility: hidden;
     display: flex;
     width: 1647px;

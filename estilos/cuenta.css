@@ -48,7 +48,7 @@
     color:white;
 }
 .primerNombre,
-.segundoNombre,
+.apellido,
 .identificacion,
 .correo,
 .contraseña{
@@ -56,19 +56,13 @@
     width: 500px;
     height: 80px;
     margin-left: 50px;
+    margin-top: 50px;
 }
-.primerNombre{margin-top: 50px;}
-.segundoNombre{margin-top: 50px;}
-.identificacion{margin-top: 50px;}
-.correo{margin-top: 50px;}
-.contraseña{margin-top: 50px;}
 
-.primerNombre span,
-.segundoNombre span{
-    margin-left: 150px;
-}
+.primerNombre span{margin-left: 150px;}
+.apellido span{margin-left: 160px;;}
 .primerNombre input,
-.segundoNombre input,
+.apellido input,
 .identificacion input,
 .correo input,
 .contraseña input{
@@ -103,10 +97,10 @@
     cursor: pointer;
 }
 .campos p{
-    margin-left: 300px;
+    margin-left:290px;
 }
 
-#ingresar{
+.ingresarBoton{
     border-color: transparent;
     background-color: #787400;
     color: #ffffff;
@@ -115,7 +109,7 @@
     font-size: 22px;
     margin-top: -5px;
     font-weight: 800;
-    margin-left: 255px;
+    margin-left: 245px;
     cursor: pointer;
 }
 
